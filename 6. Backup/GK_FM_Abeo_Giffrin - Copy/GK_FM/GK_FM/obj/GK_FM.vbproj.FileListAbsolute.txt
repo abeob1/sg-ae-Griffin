@@ -1,0 +1,17 @@
+C:\Gopinath\GK\Live\Coding\GK_FM\GK_FM\bin\Debug\GK_FM.exe
+C:\Gopinath\GK\Live\Coding\GK_FM\GK_FM\bin\Debug\GK_FM.pdb
+C:\Gopinath\GK\Live\Coding\GK_FM\GK_FM\bin\Debug\GK_FM.xml
+C:\Gopinath\GK\Live\Coding\GK_FM\GK_FM\bin\Debug\Interop.SAPbobsCOM.dll
+C:\Gopinath\GK\Live\Coding\GK_FM\GK_FM\bin\Debug\Interop.SAPbouiCOM.dll
+C:\Gopinath\GK\Live\Coding\GK_FM\GK_FM\obj\Debug\ResolveAssemblyReference.cache
+C:\Gopinath\GK\Live\Coding\GK_FM\GK_FM\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Gopinath\GK\Live\Coding\GK_FM\GK_FM\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Gopinath\GK\Live\Coding\GK_FM\GK_FM\obj\Debug\GK_FM.vbproj.ResolveComReference.cache
+C:\Gopinath\GK\Live\Coding\GK_FM\GK_FM\obj\Debug\GK_FM.HoldingStockReport.rpt
+C:\Gopinath\GK\Live\Coding\GK_FM\GK_FM\obj\Debug\GK_FM.HoldingStockReport1.rpt
+C:\Gopinath\GK\Live\Coding\GK_FM\GK_FM\obj\Debug\GK_FM.Resources.resources
+C:\Gopinath\GK\Live\Coding\GK_FM\GK_FM\obj\Debug\GK_FM.MY_Report.resources
+C:\Gopinath\GK\Live\Coding\GK_FM\GK_FM\obj\Debug\GK_FM.vbproj.GenerateResource.Cache
+C:\Gopinath\GK\Live\Coding\GK_FM\GK_FM\obj\Debug\GK_FM.exe
+C:\Gopinath\GK\Live\Coding\GK_FM\GK_FM\obj\Debug\GK_FM.xml
+C:\Gopinath\GK\Live\Coding\GK_FM\GK_FM\obj\Debug\GK_FM.pdb

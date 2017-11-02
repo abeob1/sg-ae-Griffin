@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DOREP" msprop:Generator_UserTableName="DOREP" msprop:Generator_RowDeletedName="DOREPRowDeleted" msprop:Generator_RowChangedName="DOREPRowChanged" msprop:Generator_RowClassName="DOREPRow" msprop:Generator_RowChangingName="DOREPRowChanging" msprop:Generator_RowEvArgName="DOREPRowChangeEvent" msprop:Generator_RowEvHandlerName="DOREPRowChangeEventHandler" msprop:Generator_TableClassName="DOREPDataTable" msprop:Generator_TableVarName="tableDOREP" msprop:Generator_RowDeletingName="DOREPRowDeleting" msprop:Generator_TablePropName="DOREP">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="U_CardCode" msprop:Generator_UserColumnName="U_CardCode" msprop:Generator_ColumnVarNameInTable="columnU_CardCode" msprop:Generator_ColumnPropNameInRow="U_CardCode" msprop:Generator_ColumnPropNameInTable="U_CardCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="U_CardName" msprop:Generator_UserColumnName="U_CardName" msprop:Generator_ColumnVarNameInTable="columnU_CardName" msprop:Generator_ColumnPropNameInRow="U_CardName" msprop:Generator_ColumnPropNameInTable="U_CardNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="U_CntctCode" msprop:Generator_UserColumnName="U_CntctCode" msprop:Generator_ColumnVarNameInTable="columnU_CntctCode" msprop:Generator_ColumnPropNameInRow="U_CntctCode" msprop:Generator_ColumnPropNameInTable="U_CntctCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="U_ShipTo" msprop:Generator_UserColumnName="U_ShipTo" msprop:Generator_ColumnVarNameInTable="columnU_ShipTo" msprop:Generator_ColumnPropNameInRow="U_ShipTo" msprop:Generator_ColumnPropNameInTable="U_ShipToColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DocNum" msprop:Generator_UserColumnName="DocNum" msprop:Generator_ColumnVarNameInTable="columnDocNum" msprop:Generator_ColumnPropNameInRow="DocNum" msprop:Generator_ColumnPropNameInTable="DocNumColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="U_TaxDate" msprop:Generator_UserColumnName="U_TaxDate" msprop:Generator_ColumnVarNameInTable="columnU_TaxDate" msprop:Generator_ColumnPropNameInRow="U_TaxDate" msprop:Generator_ColumnPropNameInTable="U_TaxDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="U_ItemCode" msprop:Generator_UserColumnName="U_ItemCode" msprop:Generator_ColumnVarNameInTable="columnU_ItemCode" msprop:Generator_ColumnPropNameInRow="U_ItemCode" msprop:Generator_ColumnPropNameInTable="U_ItemCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="U_Decript" msprop:Generator_UserColumnName="U_Decript" msprop:Generator_ColumnVarNameInTable="columnU_Decript" msprop:Generator_ColumnPropNameInRow="U_Decript" msprop:Generator_ColumnPropNameInTable="U_DecriptColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="U_Qyt" msprop:Generator_UserColumnName="U_Qyt" msprop:Generator_ColumnVarNameInTable="columnU_Qyt" msprop:Generator_ColumnPropNameInRow="U_Qyt" msprop:Generator_ColumnPropNameInTable="U_QytColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="U_Unit" msprop:Generator_UserColumnName="U_Unit" msprop:Generator_ColumnVarNameInTable="columnU_Unit" msprop:Generator_ColumnPropNameInRow="U_Unit" msprop:Generator_ColumnPropNameInTable="U_UnitColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="U_Weight" msprop:Generator_UserColumnName="U_Weight" msprop:Generator_ColumnVarNameInTable="columnU_Weight" msprop:Generator_ColumnPropNameInRow="U_Weight" msprop:Generator_ColumnPropNameInTable="U_WeightColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="U_Dimen" msprop:Generator_UserColumnName="U_Dimen" msprop:Generator_ColumnVarNameInTable="columnU_Dimen" msprop:Generator_ColumnPropNameInRow="U_Dimen" msprop:Generator_ColumnPropNameInTable="U_DimenColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="U_Volume" msprop:Generator_UserColumnName="U_Volume" msprop:Generator_ColumnVarNameInTable="columnU_Volume" msprop:Generator_ColumnPropNameInRow="U_Volume" msprop:Generator_ColumnPropNameInTable="U_VolumeColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="U_Comments" msprop:Generator_UserColumnName="U_Comments" msprop:Generator_ColumnVarNameInTable="columnU_Comments" msprop:Generator_ColumnPropNameInRow="U_Comments" msprop:Generator_ColumnPropNameInTable="U_CommentsColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="U_VesselNo" msprop:Generator_UserColumnName="U_VesselNo" msprop:Generator_ColumnPropNameInRow="U_VesselNo" msprop:Generator_ColumnVarNameInTable="columnU_VesselNo" msprop:Generator_ColumnPropNameInTable="U_VesselNoColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

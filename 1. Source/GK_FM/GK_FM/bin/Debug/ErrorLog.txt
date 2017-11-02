@@ -1,0 +1,62 @@
+25/9/2017 2:48:15 PM:Class:Connection Function:New Error Message:System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Program Files (x86)\SAP\SAP Business One Server\B1_SHR\GK_FM_CI4\GK_FM\GK_FM\bin\GK_FM\MyMenus.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at GK_FM.Module1.LoadFromXML(String FileName, Application Sbo_application) in C:\Gopinath\Coding\SVN\GK_FM\GK_FM\Module1.vb:line 109
+   at GK_FM.Connection..ctor() in C:\Gopinath\Coding\SVN\GK_FM\GK_FM\Connection.vb:line 57
+25/9/2017 2:51:07 PM:Class:Connection Function:New Error Message:System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Program Files (x86)\SAP\SAP Business One Server\B1_SHR\GK_FM_CI4\GK_FM\GK_FM\bin\GK_FM\MyMenus.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at GK_FM.Module1.LoadFromXML(String FileName, Application Sbo_application) in C:\Gopinath\Coding\SVN\GK_FM\GK_FM\Module1.vb:line 109
+   at GK_FM.Connection..ctor() in C:\Gopinath\Coding\SVN\GK_FM\GK_FM\Connection.vb:line 57
+25/9/2017 3:11:45 PM:Class:Connection Function:SBO_Application_MenuEvent Error Message:System.Runtime.InteropServices.COMException (0xFFFFE49E): Form - already exists  [66000-11]. Form Unique Id : 'AIRI_JOB'
+   at SAPbouiCOM.ApplicationClass.LoadBatchActions(String& XmlStr)
+   at GK_FM.Module1.LoadFromXML(String FileName, Application Sbo_application) in C:\Gopinath\Coding\SVN\GK_FM\GK_FM\Module1.vb:line 110
+   at GK_FM.Connection.SBO_Application_MenuEvent(MenuEvent& pVal, Boolean& BubbleEvent) in C:\Gopinath\Coding\SVN\GK_FM\GK_FM\Connection.vb:line 186
+25/9/2017 3:12:58 PM:Class:Connection Function:SBO_Application_MenuEvent Error Message:System.Runtime.InteropServices.COMException (0xFFFFE49E): Form - already exists  [66000-11]. Form Unique Id : 'AIRI_JOB'
+   at SAPbouiCOM.ApplicationClass.LoadBatchActions(String& XmlStr)
+   at GK_FM.Module1.LoadFromXML(String FileName, Application Sbo_application) in C:\Gopinath\Coding\SVN\GK_FM\GK_FM\Module1.vb:line 110
+   at GK_FM.Connection.SBO_Application_MenuEvent(MenuEvent& pVal, Boolean& BubbleEvent) in C:\Gopinath\Coding\SVN\GK_FM\GK_FM\Connection.vb:line 186
+25/9/2017 3:14:26 PM:Class:Connection Function:SBO_Application_MenuEvent Error Message:System.Runtime.InteropServices.COMException (0xFFFFE49E): Form - already exists  [66000-11]. Form Unique Id : 'AIRI_JOB'
+   at SAPbouiCOM.ApplicationClass.LoadBatchActions(String& XmlStr)
+   at GK_FM.Module1.LoadFromXML(String FileName, Application Sbo_application) in C:\Gopinath\Coding\SVN\GK_FM\GK_FM\Module1.vb:line 110
+   at GK_FM.Connection.SBO_Application_MenuEvent(MenuEvent& pVal, Boolean& BubbleEvent) in C:\Gopinath\Coding\SVN\GK_FM\GK_FM\Connection.vb:line 186
+25/9/2017 3:14:30 PM:Class:Connection Function:SBO_Application_MenuEvent Error Message:System.Runtime.InteropServices.COMException (0xFFFFE49E): Form - already exists  [66000-11]. Form Unique Id : 'AIRI_JOB'
+   at SAPbouiCOM.ApplicationClass.LoadBatchActions(String& XmlStr)
+   at GK_FM.Module1.LoadFromXML(String FileName, Application Sbo_application) in C:\Gopinath\Coding\SVN\GK_FM\GK_FM\Module1.vb:line 110
+   at GK_FM.Connection.SBO_Application_MenuEvent(MenuEvent& pVal, Boolean& BubbleEvent) in C:\Gopinath\Coding\SVN\GK_FM\GK_FM\Connection.vb:line 186
+25/9/2017 3:14:44 PM:Class:Connection Function:SBO_Application_MenuEvent Error Message:System.Runtime.InteropServices.COMException (0xFFFFE49E): Form - already exists  [66000-11]. Form Unique Id : 'AIRI_JOB'
+   at SAPbouiCOM.ApplicationClass.LoadBatchActions(String& XmlStr)
+   at GK_FM.Module1.LoadFromXML(String FileName, Application Sbo_application) in C:\Gopinath\Coding\SVN\GK_FM\GK_FM\Module1.vb:line 110
+   at GK_FM.Connection.SBO_Application_MenuEvent(MenuEvent& pVal, Boolean& BubbleEvent) in C:\Gopinath\Coding\SVN\GK_FM\GK_FM\Connection.vb:line 186
+25/9/2017 3:15:55 PM:Class:F_SI_JobOrder Function:LoadPaymentVoucher Error Message:System.Runtime.InteropServices.COMException (0xFFFFE49E): Form - already exists  [66000-11]. Form Unique Id : 'AB_PV'
+   at SAPbouiCOM.ApplicationClass.LoadBatchActions(String& XmlStr)
+   at GK_FM.Module1.LoadFromXML(String FileName, Application Sbo_application) in C:\Gopinath\Coding\SVN\GK_FM\GK_FM\Module1.vb:line 110
+   at GK_FM.F_AI_JobOrder.LoadPaymentVoucher(Form oform) in C:\Gopinath\Coding\SVN\GK_FM\GK_FM\F_AI_JobOrder.vb:line 2503
+25/9/2017 3:18:11 PM:Class:Connection Function:SBO_Application_MenuEvent Error Message:System.Runtime.InteropServices.COMException (0xFFFFE49E): Form - already exists  [66000-11]. Form Unique Id : 'AIRI_JOB'
+   at SAPbouiCOM.ApplicationClass.LoadBatchActions(String& XmlStr)
+   at GK_FM.Module1.LoadFromXML(String FileName, Application Sbo_application) in C:\Gopinath\Coding\SVN\GK_FM\GK_FM\Module1.vb:line 110
+   at GK_FM.Connection.SBO_Application_MenuEvent(MenuEvent& pVal, Boolean& BubbleEvent) in C:\Gopinath\Coding\SVN\GK_FM\GK_FM\Connection.vb:line 186

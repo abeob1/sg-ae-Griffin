@@ -1,0 +1,11 @@
+D:\GBS_Project\11 Addon\Griffin_DraftAPPO\Griffin_DraftAPPO\bin\Debug\Griffin_DraftAPPO.exe
+D:\GBS_Project\11 Addon\Griffin_DraftAPPO\Griffin_DraftAPPO\bin\Debug\Griffin_DraftAPPO.pdb
+D:\GBS_Project\11 Addon\Griffin_DraftAPPO\Griffin_DraftAPPO\bin\Debug\Griffin_DraftAPPO.xml
+D:\GBS_Project\11 Addon\Griffin_DraftAPPO\Griffin_DraftAPPO\obj\x86\Debug\Griffin_DraftAPPO.Resources.resources
+D:\GBS_Project\11 Addon\Griffin_DraftAPPO\Griffin_DraftAPPO\obj\x86\Debug\Griffin_DraftAPPO.vbproj.GenerateResource.Cache
+D:\GBS_Project\11 Addon\Griffin_DraftAPPO\Griffin_DraftAPPO\obj\x86\Debug\Griffin_DraftAPPO.exe
+D:\GBS_Project\11 Addon\Griffin_DraftAPPO\Griffin_DraftAPPO\obj\x86\Debug\Griffin_DraftAPPO.xml
+D:\GBS_Project\11 Addon\Griffin_DraftAPPO\Griffin_DraftAPPO\obj\x86\Debug\Griffin_DraftAPPO.pdb
+D:\GBS_Project\11 Addon\Griffin_DraftAPPO\Griffin_DraftAPPO\obj\x86\Debug\Interop.SAPbobsCOM.dll
+D:\GBS_Project\11 Addon\Griffin_DraftAPPO\Griffin_DraftAPPO\obj\x86\Debug\Griffin_DraftAPPO.vbproj.ResolveComReference.cache
+D:\GBS_Project\11 Addon\Griffin_DraftAPPO\Griffin_DraftAPPO\obj\x86\Debug\Griffin_DraftAPPO.Form1.resources

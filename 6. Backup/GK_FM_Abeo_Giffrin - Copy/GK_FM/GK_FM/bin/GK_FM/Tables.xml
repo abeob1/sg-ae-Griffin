@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables>
+  <Table Name="AB_AWB_H" Description="House AWB header" Type="bott_Document">
+    <Fields>
+      <Field Name="ShipperAccNum" Description="Shipper Account Number" Type="db_Alpha" EditSize="50"></Field>
+      <Field Name="ShipperNameAddress" Description="Shipper Name and Address" Type="db_Memo" EditSize="254" />
+      <Field Name="AWBNo" Description="AWB No" Type="db_Alpha" EditSize="50"></Field>
+      <Field Name="ConsigneeAccNum" Description="Consignee Account Number" Type="db_Alpha" EditSize="50"></Field>
+      <Field Name="ConsigneeNameAddr" Description="Consignee Name and Address" Type="db_Memo" EditSize="254" />
+      <Field Name="IssuedBy" Description="Issued By" Type="db_Alpha" EditSize="50"></Field>
+      <Field Name="CarrierAgnetName" Description="Carrier Agnet Name" Type="db_Alpha" EditSize="100"></Field>
+      <Field Name="CarrierAgnetCity" Description="Carrier Agent City" Type="db_Alpha" EditSize="100"></Field>
+      <Field Name="CarrierAgnetAccNum" Description="Carrier Agent Account Number" Type="db_Alpha" EditSize="50"></Field>
+      <Field Name="Details" Description="Details" Type="db_Memo" EditSize="254" />
+      <Field Name="ReferenceNumber" Description="Reference Number" Type="db_Alpha" EditSize="50"></Field>
+      <Field Name="Information" Description="Information" Type="db_Alpha" EditSize="50"></Field>
+      <Field Name="Department" Description="Department" Type="db_Alpha" EditSize="100"></Field>
+      <Field Name="Route1" Description="Route 1" Type="db_Alpha" EditSize="100"></Field>
+      <Field Name="Route2" Description="Route 2" Type="db_Alpha" EditSize="100"></Field>
+      <Field Name="Route3" Description="Route 3" Type="db_Alpha" EditSize="100"></Field>
+      <Field Name="Destination" Description="Destination" Type="db_Alpha" EditSize="100"></Field>
+      <Field Name="FlighDate" Description="Fligh Date" Type="db_Date" EditSize="100"></Field>
+      <Field Name="Currecy" Description="Currecy" Type="db_Alpha" EditSize="5"></Field>
+      <Field Name="ValueforCarriage" Description="Value for Carriage" Type="db_Float" SubType="st_Sum" EditSize="10"></Field>
+      <Field Name="CHCG" Description="CHCG" Type="db_Alpha" EditSize="50"></Field>
+      <Field Name="ValueforCustoms" Description="Value for Customs" Type="db_Float" SubType="st_Sum" EditSize="10"></Field>
+      <Field Name="AmountofInsuranc" Description="Amount of Insurance" Type="db_Float" SubType="st_Sum" EditSize="10"></Field>
+      <Field Name="WTPPC" Description="WTPPC" Type="db_Numeric" EditSize="10"></Field>
+      <Field Name="WTCOLL" Description="WTCOLL" Type="db_Numeric" EditSize="10"></Field>
+      <Field Name="OtherPPC" Description="OtherPPC" Type="db_Numeric" EditSize="10"></Field>
+      <Field Name="OtherCOLL" Description="OtherCOLL" Type="db_Numeric" EditSize="10"></Field>
+      <Field Name="HAWBNo" Description="HAWB No" Type="db_Alpha" EditSize="50"></Field>
+      <Field Name="JobEntry" Description="JobEntry" Type="db_Numeric" EditSize="10"></Field>
+      <Field Name="CarrierAgnetIATA" Description="Carrier Agnet IATA Code" Type="db_Alpha" EditSize="100"></Field>
+    </Fields>
+  </Table>
+  <Table Name="AB_AWB_H1" Description="House AWB row 1" Type="bott_DocumentLines">
+    <Fields>
+      <Field Name="Requirments" Description="Requirments" Type="db_Memo" EditSize="254" />
+      <Field Name="SCI" Description="SCI" Type="db_Alpha" EditSize="100" />
+      <Field Name="Destination" Description="Destination" Type="db_Alpha" EditSize="100" />
+      <Field Name="PrepaidValCharge" Description="Prepaid Val.Charges" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="PrepaidRoute" Description="Prepaid.Route" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="PrepaidTax" Description="Prepaid Tax" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="PrepaidOthDue" Description="Prepaid Other Due Agent" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="PrepaidTotal" Description="Prepaid Total" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="CollectValCharge" Description="Collect Val.Charges" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="CollectRoute" Description="Collect.Route" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="CollectTax" Description="Collect Tax" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="CollectOtherDue" Description="Collect Other Due Agent" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="CollectTotal" Description="Collect Total" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="CurrecyConvRate" Description="Currecy Conv.Rate" Type="db_Float" SubType="st_Rate" EditSize="10" />
+      <Field Name="ShipperCertificate" Description="Shipper Certificate" Type="db_Memo" EditSize="254" />
+    </Fields>
+  </Table>
+  <Table Name="AB_AWB_H2" Description="House AWB row 2" Type="bott_DocumentLines">
+    <Fields>
+      <Field Name="Pieces" Description="Pieces" Type="db_Alpha" EditSize="50" />
+      <Field Name="K_I" Description="K/I" Type="db_Alpha" EditSize="50" />
+      <Field Name="RC" Description="RC" Type="db_Alpha" EditSize="50" />
+      <Field Name="ItemNo" Description="Item No" Type="db_Alpha" EditSize="20" />
+      <Field Name="Total" Description="Total" Type="db_Numeric" EditSize="10" />
+      <Field Name="GrWeight" Description="Gross Weight" Type="db_Numeric" EditSize="10" />
+      <Field Name="ChWeight" Description="Charge Weight" Type="db_Numeric" EditSize="10" />
+      <Field Name="NatQty" Description="Nature and Quantity" Type="db_Numeric" EditSize="10" />
+      <Field Name="RateClss" Description="Rate / Class" Type="db_Alpha" EditSize="50" />
+    </Fields>
+  </Table>
+  <Table Name="AB_AWB_H3" Description="House AWB row 3" Type="bott_DocumentLines">
+    <Fields>
+      <Field Name="OChrgDes" Description="Other Charges Desc" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="OChrgAmt" Description="Other Charges Amount" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="OChrgDue" Description="Other Charge Due" Type="db_Float" SubType="st_Sum" EditSize="10" />
+    </Fields>
+  </Table>
+  <Table Name="AB_AWB_M" Description="Master AWB header" Type="bott_Document">
+    <Fields>
+      <Field Name="ShipperAccNum" Description="Shipper Account Number" Type="db_Alpha" EditSize="50"></Field>
+      <Field Name="ShipperNameAddress" Description="Shipper Name and Address" Type="db_Memo" EditSize="254" />
+      <Field Name="AWBNo" Description="AWB No" Type="db_Alpha" EditSize="50"></Field>
+      <Field Name="ConsigneeAccNum" Description="Consignee Account Number" Type="db_Alpha" EditSize="50"></Field>
+      <Field Name="ConsigneeNameAddr" Description="Consignee Name and Address" Type="db_Memo" EditSize="254" />
+      <Field Name="IssuedBy" Description="Issued By" Type="db_Alpha" EditSize="50"></Field>
+      <Field Name="CarrierAgnetName" Description="Carrier Agnet Name" Type="db_Alpha" EditSize="100"></Field>
+      <Field Name="CarrierAgnetCity" Description="Carrier Agent City" Type="db_Alpha" EditSize="100"></Field>
+      <Field Name="CarrierAgnetAccNum" Description="Carrier Agent Account Number" Type="db_Alpha" EditSize="50"></Field>
+      <Field Name="Details" Description="Details" Type="db_Memo" EditSize="254" />
+      <Field Name="ReferenceNumber" Description="Reference Number" Type="db_Alpha" EditSize="50"></Field>
+      <Field Name="Information" Description="Information" Type="db_Alpha" EditSize="50"></Field>
+      <Field Name="Department" Description="Department" Type="db_Alpha" EditSize="100"></Field>
+      <Field Name="Route1" Description="Route 1" Type="db_Alpha" EditSize="100"></Field>
+      <Field Name="Route2" Description="Route 2" Type="db_Alpha" EditSize="100"></Field>
+      <Field Name="Route3" Description="Route 3" Type="db_Alpha" EditSize="100"></Field>
+      <Field Name="Destination" Description="Destination" Type="db_Alpha" EditSize="100"></Field>
+      <Field Name="FlighDate" Description="Fligh Date" Type="db_Date" EditSize="100"></Field>
+      <Field Name="Currecy" Description="Currecy" Type="db_Alpha" EditSize="5"></Field>
+      <Field Name="ValueforCarriage" Description="Value for Carriage" Type="db_Float" SubType="st_Sum" EditSize="20"></Field>
+      <Field Name="CHCG" Description="CHCG" Type="db_Alpha" EditSize="50"></Field>
+      <Field Name="ValueforCustoms" Description="Value for Customs" Type="db_Float" SubType="st_Sum" EditSize="20"></Field>
+      <Field Name="AmountofInsuranc" Description="Amount of Insurance" Type="db_Float" SubType="st_Sum" EditSize="20"></Field>
+      <Field Name="WTPPC" Description="WTPPC" Type="db_Numeric" EditSize="10"></Field>
+      <Field Name="WTCOLL" Description="WTCOLL" Type="db_Numeric" EditSize="10"></Field>
+      <Field Name="OtherPPC" Description="OtherPPC" Type="db_Numeric" EditSize="10"></Field>
+      <Field Name="OtherCOLL" Description="OtherCOLL" Type="db_Numeric" EditSize="10"></Field>
+      <Field Name="JobEntry" Description="JobEntry" Type="db_Numeric" EditSize="10"></Field>
+      <Field Name="CarrierAgnetIATA" Description="Carrier Agnet IATA Code" Type="db_Alpha" EditSize="100"></Field>
+    </Fields>
+  </Table>
+  <Table Name="AB_AWB_M1" Description="Master AWB row 1" Type="bott_DocumentLines">
+    <Fields>
+      <Field Name="Requirments" Description="Requirments" Type="db_Memo" EditSize="254" />
+      <Field Name="SCI" Description="SCI" Type="db_Alpha" EditSize="100" />
+      <Field Name="Destination" Description="Destination" Type="db_Alpha" EditSize="100" />
+      <Field Name="PrepaidValCharge" Description="Prepaid Val.Charges" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="PrepaidRoute" Description="Prepaid.Route" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="PrepaidTax" Description="Prepaid Tax" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="PrepaidOthDue" Description="Prepaid Other Due Agent" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="PrepaidTotal" Description="Prepaid Total" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="CollectWghtCharge" Description="Collect Weight Charges" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="CollectValCharge" Description="Collect Val.Charges" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="CollectRoute" Description="Collect.Route" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="CollectTax" Description="Collect Tax" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="CollectOtherDue" Description="Collect Other Due Agent" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="CollectTotal" Description="Collect Total" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="CurrecyConvRate" Description="Currecy Conv.Rate" Type="db_Float" SubType="st_Rate" EditSize="10" />
+      <Field Name="ShipperCertificate" Description="Shipper Certificate" Type="db_Memo" EditSize="254" />
+      <Field Name="CarrierExecution" Description="Carrier's Execution" Type="db_Memo" EditSize="254" />
+      <Field Name="Date" Description="Date" Type="db_Date" EditSize="10" />
+      <Field Name="Place" Description="Place" Type="db_Alpha" EditSize="100" />
+      <Field Name="Signature" Description="Signature" Type="db_Alpha" EditSize="100" />
+      <Field Name="CCChargesInDest" Description="CC Charges in Dest" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="ChargesAtDest" Description="Charges At Dest" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="TotalCollect" Description="Total Collect" Type="db_Float" SubType="st_Sum" EditSize="10" />
+    </Fields>
+  </Table>
+  <Table Name="AB_AWB_M2" Description="Mater AWB row 2" Type="bott_DocumentLines">
+    <Fields>
+      <Field Name="Pieces" Description="Pieces" Type="db_Alpha" EditSize="50" />
+      <Field Name="K_I" Description="K/I" Type="db_Alpha" EditSize="50" />
+      <Field Name="RC" Description="RC" Type="db_Alpha" EditSize="50" />
+      <Field Name="ItemNo" Description="Item No" Type="db_Alpha" EditSize="20" />
+      <Field Name="Total" Description="Total" Type="db_Numeric" EditSize="10" />
+      <Field Name="GrWeight" Description="Gross Weight" Type="db_Numeric" EditSize="10" />
+      <Field Name="ChWeight" Description="Charge Weight" Type="db_Numeric" EditSize="10" />
+      <Field Name="NatQty" Description="Nature and Quantity" Type="db_Numeric" EditSize="10" />
+      <Field Name="RateClss" Description="Rate / Class" Type="db_Alpha" EditSize="50" />
+    </Fields>
+  </Table>
+  <Table Name="AB_AWB_M3" Description="Master AWB row 3" Type="bott_DocumentLines">
+    <Fields>
+      <Field Name="OChrgDes" Description="Other Charges Desc" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="OChrgAmt" Description="Other Charges Amount" Type="db_Float" SubType="st_Sum" EditSize="10" />
+      <Field Name="OChrgDue" Description="Other Charge Due" Type="db_Float" SubType="st_Sum" EditSize="10" />
+    </Fields>
+  </Table>
+</Tables>
